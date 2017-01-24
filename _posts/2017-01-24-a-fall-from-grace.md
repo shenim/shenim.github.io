@@ -7,6 +7,7 @@ categories:
   - Jump
 image: 'https://lh3.googleusercontent.com/QBUZlVxNHwuj7JURLj0ZRPi5EmuDgSsFQV2LGeIURABX0mnKdHHvPggk-J6eCEenVo60jEQS454-uLE=w1680-h1050-rw-no?.jpg'
 author_staff_member: a
+layout: post
 ---
 
 
