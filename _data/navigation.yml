@@ -5,7 +5,7 @@
   link: '#Services'
   title: Les services que nous mettons à votre disposition
 - name: Sites
-  link: 'index.html#portfolio'
+  link: '#portfolio'
   title: Nos projets précédents
 - name: nouvelles
   link: /blog/
