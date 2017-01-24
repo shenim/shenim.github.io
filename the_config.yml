@@ -1,8 +1,8 @@
 # ----
 # Site
 
-title: Frisco Template
-url: "https://spring-gull2.cloudvent.net"
+title: Dindissage
+url: "http://sparkling-heron1.cloudvent.net/"
 baseurl:
 google_analytics_key:
 google_maps_javascript_api_key:
@@ -61,6 +61,11 @@ defaults:
   -
     scope:
       path: "contact-success.html"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: "index-copy.html"
     values:
       layout: "page"
 
