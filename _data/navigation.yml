@@ -8,10 +8,10 @@
   link: '#portfolio'
   title: Nos projets précédents
 - name: nouvelles
-  link: /blog/
+  link: blog/
   title: Toutes les dernières nouvelles sur le marketing Internet
 - name: Contact
-  link: /contact.html
+  link: contact.html
   title: Prenez contact avec nous
 - name: EN
   link: 'http://www.alunissage.fr/english.html'
