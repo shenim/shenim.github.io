@@ -1,7 +1,44 @@
 ---
 layout: page
 ---
+        <div class="page" id="top">
+            
+            <!-- Home Section -->
+            <section class="home-section bg-dark-alfa-30 parallax-2" data-background="images/full-width-images/section-bg-1.jpg" id="home">
+                <div class="js-height-full">
+                    
+                    <!-- Hero Content -->
+                    <div class="home-content">
+                        <div class="home-text">
+                            
+                            <h1 class="hs-line-1 font-alt mb-80 mb-xs-30 mt-70 mt-sm-0">
+                                alunissage
+                            </h1>
+                            
+                            <div class="hs-line-6">
+                        sites&nbsp;|&nbsp;applis&nbsp;<span style="font-size: 24px; color: gray;">&nbsp;↔&nbsp;</span>web&nbsp;|&nbsp;mobile
+                                <!-- <span style="color:gray" class="fa fa-arrows-h fa-lg"></span>  -->
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <!-- End Hero Content -->
+                    
+                    <!-- Scroll Down -->
+                    <div class="local-scroll">
 
+                        <a href="#services" class="scroll-down"><i class="fa fa-space-shuttle scroll-down-icon"></i></a>
+                    </div>
+                    <!-- End Scroll Down -->
+                    
+                </div>
+            </section>
+            <!-- End Home Section -->
+            
+            {% include nav.html %}
+            
+            <!-- Divider -->
+            <hr class="mt-0 mb-0 "/>
 <section>
 	<div class="blog-post text-container">
 		<p class="editor-link"><a href="cloudcannon:collections/{{ page.path }}" class="btn"><strong>&#9998;</strong> Edit Post</a></p>
@@ -27,26 +64,7 @@ layout: page
 			</div>
 
 
-			{% if site.disqus_shortname and page.comments %}
-				<div id="disqus_thread"></div>
-				<script>
-						var disqus_shortname = '{{ site.disqus_shortname }}';
-						var disqus_config = function () {
-								this.page.url = "{{ page.url | prepend: site.url }}";
-								this.page.identifier = "{{ page.id }}";
-						};
 
-						(function() {  // DON'T EDIT BELOW THIS LINE
-								var d = document, s = d.createElement('script');
-
-								dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-
-								s.setAttribute('data-timestamp', +new Date());
-								(d.head || d.body).appendChild(s);
-						})();
-				</script>
-				<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-			{% endif %}
 		</div>
 	</div>
 </section>
