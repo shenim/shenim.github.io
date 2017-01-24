@@ -67,7 +67,7 @@ defaults:
     scope:
       path: "index-copy.html"
     values:
-      layout: "page"
+      layout: "default"
 
 # -----------
 # CloudCannon
