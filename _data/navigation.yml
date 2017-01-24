@@ -1,11 +1,11 @@
 - name: Acceuil
-  link: \%23home
+  link: index.html#home
   title: Retour au début 
 - name: Services
-  link: \%23Services
+  link: index.html#Services
   title: Les services que nous mettons à votre disposition
 - name: Sites
-  link: \%23portfolio
+  link: index.html#portfolio
   title: Nos projets précédents
 - name: nouvelles
   link: /blog/
