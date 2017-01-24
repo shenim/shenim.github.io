@@ -1,6 +1,6 @@
 ---
 title: A Fall From Grace
-date:
+date: 2017-01-24 00:00:00
 description:
 categories:
   - run
