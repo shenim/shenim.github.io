@@ -15,12 +15,17 @@
                     <!-- Main Menu -->
                     <div class="inner-nav desktop-nav">
                         <ul class="clearlist scroll-nav local-scroll">
-                            <li class="active"><a href="{{ site.url }}#home">Acceuil</a></li>
-                            <li><a href="{{ site.url }}#services">Services</a></li>
-                            <li><a href="{{ site.url }}#portfolio">Sites</a></li>
-                            <li><a href="{{ site.url }}blog/">nouvelles</a></li>
-                            <li><a href="{{ site.url }}contact.html">Contact</a></li>
-                            <li><a href="http://www.alunissage.fr/english.html" title="Website in English">EN</a></li>                         
+                        	{% for link in site.data.navigation %}
+                        		{% assign class = "" %}
+                        		{% if link.highlight %}
+                        			{% assign class = class | append: " highlight" %}
+                        		{% endif %}
+                        
+                        		{% if link.link == page.url %}
+                        			{% assign class = class | append: " active" %}
+                        		{% endif %}
+                        		<li><a href="{% include relative-src.html src=link.link %}" class="{{ class }}" {% if link.new_window %}target="_blank"{% endif %} title="link.title">{{ link.name }}</a></li>
+                        	{% endfor %}
                         </ul>
                     </div>
                 </div>
