@@ -1,11 +1,11 @@
 - name: Acceuil
-  link: index.html#home
-  title: Retour au début 
+  link: '#home'
+  title: Retour au début
 - name: Services
-  link: index.html#Services
+  link: '#Services'
   title: Les services que nous mettons à votre disposition
 - name: Sites
-  link: index.html#portfolio
+  link: 'index.html#portfolio'
   title: Nos projets précédents
 - name: nouvelles
   link: /blog/
@@ -14,7 +14,5 @@
   link: /contact.html
   title: Prenez contact avec nous
 - name: EN
-  link: http://www.alunissage.fr/english.html
-  title: English version of our website  
-  
-  
+  link: 'http://www.alunissage.fr/english.html'
+  title: English version of our website
