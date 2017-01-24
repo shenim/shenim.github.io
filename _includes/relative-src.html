@@ -1,1 +1,1 @@
-{% assign prefix = include.src | slice: 0, 2 %}{% assign protocol = include.src | slice: 0, 4 %}{% unless protocol == 'http' or prefix == "//" or include.src == site.url  %}{{ site.url }}{% endunless %}{{ include.src }}
+{% assign ishome = include.src | split: '#' %}{% assign prefix = include.src | slice: 0, 2 %}{% assign protocol = include.src | slice: 0, 4 %}{% unless protocol == 'http' or prefix == "//" or ishome.first == site.url  %}{{ site.url }}{% endunless %}{{ include.src }}
