@@ -1,17 +1,17 @@
 - name: Acceuil
-  link: '/#home'
+  link: '#home'
   title: Retour au début
 - name: Services
-  link: '/#services'
+  link: '#services'
   title: Les services que nous mettons à votre disposition
 - name: Sites
-  link: '/#portfolio'
+  link: '#portfolio'
   title: Nos projets précédents
 - name: nouvelles
-  link: /blog/
+  link: blog/
   title: Toutes les dernières nouvelles sur le marketing Internet
 - name: Contact
-  link: /contact.html
+  link: contact.html
   title: Prenez contact avec nous
 - name: EN
   link: 'http://www.alunissage.fr/english.html'
